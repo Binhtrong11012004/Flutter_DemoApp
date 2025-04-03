@@ -25,7 +25,7 @@ class _DeliveryInfoViewState extends State<DeliveryInfoView> {
       listener: (context, state) {
         EasyLoading.dismiss();
         if (state is DeliveryInfoActionLoading) {
-          EasyLoading.show(status: 'Loading...');
+          EasyLoading.show(status: 'Đang Tải...');
         } else if (state is DeliveryInfoSelectActionSuccess) {
           context
               .read<DeliveryInfoFetchCubit>()

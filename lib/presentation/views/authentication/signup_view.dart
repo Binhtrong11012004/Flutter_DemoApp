@@ -33,7 +33,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       listener: (context, state) {
         EasyLoading.dismiss();
         if (state is UserLoading) {
-          EasyLoading.show(status: 'Loading...');
+          EasyLoading.show(status: 'Đang Tải...');
         } else if (state is UserLogged) {
           context.read<CartBloc>().add(const GetCart());
           Navigator.of(context).pushNamedAndRemoveUntil(

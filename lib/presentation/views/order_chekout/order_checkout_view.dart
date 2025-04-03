@@ -28,7 +28,7 @@ class OrderCheckoutView extends StatelessWidget {
         listener: (context, state) {
           EasyLoading.dismiss();
           if (state is OrderAddLoading) {
-            EasyLoading.show(status: 'Loading...');
+            EasyLoading.show(status: 'Đang Tải...');
           } else if (state is OrderAddSuccess) {
             context.read<NavbarCubit>().update(0);
             context.read<NavbarCubit>().controller.jumpToPage(0);

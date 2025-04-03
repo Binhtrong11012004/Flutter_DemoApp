@@ -32,7 +32,7 @@ class _SignInViewState extends State<SignInView> {
       listener: (context, state) {
         EasyLoading.dismiss();
         if (state is UserLoading) {
-          EasyLoading.show(status: 'Loading...');
+          EasyLoading.show(status: 'Đang Tải...');
         } else if (state is UserLogged) {
           context.read<CartBloc>().add(const GetCart());
           context.read<DeliveryInfoFetchCubit>().fetchDeliveryInfo();
