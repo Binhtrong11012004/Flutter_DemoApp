@@ -1,0 +1,400 @@
+{
+  "users": [
+    {
+      "_id": "1",
+      "firstName": "Trong",
+      "lastName": "Binh",
+      "image": "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482747nwT/anh-mo-ta.png",
+      "email": "hoaheo1101@gmail.com",
+      "password": "11012004"
+    },
+    {
+      "_id": "2",
+      "firstName": "Ha",
+      "lastName": "Truong",
+      "image": null,
+      "email": "haha1402@gmail.com",
+      "password": "123456789"
+    }
+   
+  ],
+
+  "products": [
+    {
+      "_id": "1",
+      "name": "Chuột Razer Viper V3 Pro Wireless Esports Gaming",
+      "description": "Vị vua của chuột không dây gaming. Với thiết kế siêu nhẹ 54 g và công nghệ tốt nhất trong phân khúc, Razer Viper V3 Pro là sự lựa chọn không thể tranh cãi cho hiệu suất và khả năng xử lý đỉnh cao—vũ khí hoàn hảo được thiết kế và tin dùng bởi các game thủ chuyên nghiệp.",
+      "priceTags": [
+        {
+          "_id": "1-1",
+          "name": "Đen",
+          "price": 500.000
+        },
+        {
+          "_id": "1-2",
+          "name": "Trắng",
+          "price": 480.000
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://example.com/images/mouse.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179544/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-1_i1uvec.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179552/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-2_gpinqg.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-3_wk8b6m.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-4_av2vuk.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-5_nev0tq.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-6_zdovsx.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-7_cqf6wz.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-8_nd4peg.jpg"
+      ],
+      "createdAt": "2025-06-01T10:15:30.000Z",
+      "updatedAt": "2025-06-10T12:30:45.000Z"
+    },
+
+    {
+      "_id": "2",
+      "name": "Tai Nghe Bose QuietComfort",
+      "description": "Kiểm soát âm thanh đưa bạn lên đỉnh thế giới với Tai nghe chống ồn với tai Bose QuietComfort. Trải nghiệm âm thanh độ trung thực cao mạnh mẽ với khả năng chống ồn huyền thoại trong tai nghe Bluetooth không dây này cho phép bạn chặn mọi thứ trừ nhịp điệu và kiểm soát những gì bạn nghe thấy. Tai nghe không dây Bose này có các chế độ tùy chỉnh mới cho phép bạn điều chỉnh khả năng chống ồn dựa trên thời điểm và tùy chọn bật Wind Block để loại bỏ tiếng ồn trong môi trường.",
+      "priceTags": [
+        {
+          "_id": "2-1",
+          "name": "Trắng",
+          "price": 200.000
+        },
+        {
+          "_id": "2-2",
+          "name": "Đen",
+          "price": 210.000
+        },
+
+        {
+          "_id": "2-3",
+          "name": "Nâu",
+          "price": 199.000
+        },
+        {
+          "_id": "2-4",
+          "name": "Xanh ánh trăng",
+          "price": 187.000
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://example.com/images/mouse.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184474/E-Shop/Porducts/Bose%20QuietComfort/qbcoq9qtwp3gxcpwow8z.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184585/E-Shop/Porducts/Bose%20QuietComfort/rkjmn9ryxrbgnnsekemm.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184592/E-Shop/Porducts/Bose%20QuietComfort/gsjack1ei1fsju9seiau.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734184598/E-Shop/Porducts/Bose%20QuietComfort/i3z7agm7voqvvxdtiolw.jpg"
+      ],
+      "createdAt": "2025-06-01T10:15:30.000Z",
+      "updatedAt": "2025-06-10T12:30:45.000Z"
+    },
+
+    {
+      "_id": "3",
+      "name": "Chuột Razer Viper V2 Pro",
+      "description": "Tận hưởng trò chơi siêu nhạy, độ trễ thấp với tốc độ cực nhanh vượt trội so với công nghệ không dây khác. Đơn giản hóa thiết lập của bạn và giải phóng cổng USB bằng cách kết nối chuột và bàn phím không dây của bạn với một receiver duy nhất — một tính năng hỗ trợ nhiều thiết bị có trong các thiết bị ngoại vi Razer HyperSpeed ​​mới nhất của chúng tôi.",
+      "priceTags": [
+        {
+          "_id": "3-1",
+          "name": "Đen",
+          "price": 790.000
+        },
+        {
+          "_id": "3-2",
+          "name": "Phiên bản PUBG",
+          "price": 800.000
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://example.com/images/mouse.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452475/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-1_tiwcpx.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452474/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-2_vnbwly.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452474/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-4_s7vebl.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452474/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-3_lixe41.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452473/E-Shop/Porducts/Razer%20Viper%20V2%20Pro/img-5_srjbst.jpg"
+      ],
+      "createdAt": "2025-06-01T10:15:30.000Z",
+      "updatedAt": "2025-06-10T12:30:45.000Z"
+    },
+
+    {
+      "_id": "4",
+      "name": " Laptop ASUS ROG Strix G16 (2024) Gaming",
+      "description": "Nâng tầm trò chơi và mang theo cả đội của bạn với ROG Strix G16 mới, một chiếc máy tính xách tay chơi game mạnh mẽ có Windows 11, bộ xử lý Intel Core thế hệ thứ 13 và GPU NVIDIA® GeForce RTX™ 40 Series Laptop. Với bộ nhớ DDR5-4800MHz và SSD PCIe Gen4, chiếc máy tính xách tay này được thiết kế để cung cấp hiệu suất cực nhanh và giảm thiểu thời gian tải. Hệ thống làm mát thông minh ROG với kim loại lỏng được nâng cấp trên CPU và Công nghệ Tri-Fan, đảm bảo rằng máy tính xách tay có thể xử lý được công suất mà nó có thể cung cấp.",
+      "priceTags": [
+        {
+          "_id": "4-1",
+          "name": "Bản 2023",
+          "price": 1120.100
+        },
+        {
+          "_id": "4-2",
+          "name": "Bản 2024 Model",
+          "price": 1262.73
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-3",
+          "name": "Laptop",
+          "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204635/E-Shop/Category/laptop_mzfy8p.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452946/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-1_xx7zlz.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452945/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-2_kujma5.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452945/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-3_qmdviv.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452943/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-4_v1r1uu.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1734452943/E-Shop/Porducts/ASUS%20ROG%20Strix%20G16%20%282024%29%20Gaming%20Laptop/img-5_fg1tvy.jpg"
+      ],
+      "createdAt": "2025-06-01T10:15:30.000Z",
+      "updatedAt": "2025-06-10T12:30:45.000Z"
+    },
+
+    {
+      "_id": "5",
+      "name": "Chuột Razer DeathAdder Essential",
+      "description": "Razer DeathAdder Essential - Trắng - Chuột chơi game Essential với cảm biến quang học 6.400 DPI.",
+      "priceTags": [
+        {
+          "_id": "5-1",
+          "name": "Trắng",
+          "price": 18.99
+        },
+        {
+          "_id": "5-2",
+          "name": "Đen",
+          "price": 29.68
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616995/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-2_nwpysc.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616995/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-1_ldlzxv.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616997/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-3_hbwo2x.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736616999/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-4_rq8umh.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736617002/E-Shop/Porducts/Razer%20DeathAdder%20Essential%20-%20White/img-5_dzlglh.jpg"
+      ],
+      "createdAt": "2025-06-01T10:15:30.000Z",
+      "updatedAt": "2025-06-10T12:30:45.000Z"
+    },
+
+    {
+      "_id": "6",
+      "name": "Chuột Rapoo MT760 Multi-Device Wireless",
+      "description": "Rapoo MT760 hỗ trợ kết nối đa chế độ Bluetooth 5.0 và 2,4 GHz, có thể được sử dụng để chuyển đổi qua lại giữa máy tính văn phòng/máy tính xách tay/điện thoại di động/ipad qua Bluetooth hoặc USB dongle đi kèm, đồng thời chuột không dây Bluetooth có công suất thấp, độ trễ thấp và hiệu suất cao cho phép bạn dễ dàng giải quyết mọi vấn đề phức tạp.",
+      "priceTags": [
+        {
+          "_id": "6-1",
+          "name": "Xám sáng",
+          "price": 350.000
+        },
+        {
+          "_id": "6-2",
+          "name": "Đen nhám",
+          "price": 280.000
+        }
+      ],
+      "categories": [
+        {
+          "_id": "cat-1",
+          "name": "Mouse",
+          "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619653/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-1_pa4cph.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619655/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-2_g4ejel.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619659/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-3_nzbkts.jpg",
+        "https://res.cloudinary.com/programming-night/image/upload/v1736619661/E-Shop/Porducts/Rapoo%20MT760%20Multi-Device%20Wireless%20Mouse%2C%20Bluetooth%205.0/img-4_xcy3tw.jpg"
+      ],
+      "createdAt": "2025-06-01T10:15:30.000Z",
+      "updatedAt": "2025-06-10T12:30:45.000Z"
+    }
+  ],
+
+  "categories": [
+    {
+      "_id": "cat-1",
+      "name": "Chuột",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204353/E-Shop/Category/mouse_u2bcoq.jpg"
+    },
+    {
+      "_id": "cat-2",
+      "name": "Bàn Phím",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734202790/E-Shop/Category/keyboard_bynls8.jpg"
+    },
+    {
+      "_id": "cat-3",
+      "name": "Laptop",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204635/E-Shop/Category/laptop_mzfy8p.jpg"
+    },
+    {
+      "_id": "cat-4",
+      "name": "Màn Hình",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204858/E-Shop/Category/monitor_vopuyn.jpg"
+    },
+    {
+      "_id": "cat-5",
+      "name": "Tai Nghe",
+      "image": "https://res.cloudinary.com/programming-night/image/upload/v1734204911/E-Shop/Category/headphone_ht9fst.jpg"
+    }
+  ],
+  "carts": [
+    {
+      "_id": "1",
+      "product": {
+        "_id": "1",
+        "name": "Chuột Razer Viper V3 Pro Wireless Esports Gaming",
+        "description": "Vị của chuột thể thao điện tử không dây trở lại để định hình lại bối cảnh cạnh tranh. Với thiết kế siêu nhẹ 54 g và công nghệ tốt nhất trong phân khúc, Razer Viper V3 Pro là sự lựa chọn không thể tranh cãi cho hiệu suất và khả năng xử lý đỉnh cao—vũ khí hoàn hảo được thiết kế và tin dùng bởi các game thủ chuyên nghiệp.",
+        "priceTags": [
+          {
+            "_id": "1-1",
+            "name": "Đen",
+            "price": 151.990
+          },
+          {
+            "_id": "1-2",
+            "name": "Trắng",
+            "price": 148.910
+          }
+        ],
+        "categories": [
+          {
+            "_id": "cat-1",
+            "name": "Mouse",
+            "image": "https://example.com/images/mouse.jpg"
+          }
+        ],
+        "images": [
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179544/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-1_i1uvec.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179552/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-2_gpinqg.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-3_wk8b6m.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-4_av2vuk.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-5_nev0tq.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179562/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-6_zdovsx.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-7_cqf6wz.jpg",
+          "https://res.cloudinary.com/programming-night/image/upload/v1734179561/E-Shop/Porducts/Razer%20Viper%20V3%20Pro/img-8_nd4peg.jpg"
+        ],
+        "createdAt": "2025-06-01T10:15:30.000Z",
+        "updatedAt": "2025-06-10T12:30:45.000Z"
+      },
+      "priceTag": {
+        "_id": "1-1",
+        "name": "Đen",
+        "price": 151.990
+      }
+    }
+  ],
+
+  "delivery-info": [
+    {
+      "_id": "1",
+      "firstName": "Trong",
+      "lastName": "Nguyen",
+      "addressLineOne": "5 Le Trong Tan",
+      "addressLineTwo": "9 Le Trong Tan",
+      "city": "Ho Chi Minh",
+      "zipCode": "07000",
+      "contactNumber": "0794857510"
+    }
+  
+  ],
+
+  "orders": [
+    {
+      "_id": "ESHOP-1000001234",
+      "orderItems": [
+        {
+          "_id": "ESHOP-1000001223",
+          "product": {
+            "_id": "2",
+            "name": "Tai nghe Bose QuietComfort",
+            "description": "Go beyond the beat and take control of the sound that puts you on top of the world with Bose QuietComfort Wireless Noise Cancelling Headphones. Experience powerful high-fidelity audio with legendary noise cancellation in these wireless Bluetooth headphones that allow you to block everything out but the beat and control what you hear. These Bose wireless headphones feature new custom modes that give you the power to adjust noise cancellation based in the moment and the option to turn on Wind Block to tune out breezy environments.",
+            "priceTags": [
+              {
+                "_id": "2-1",
+                "name": "Trắng",
+                "price": 200.000
+              },
+              {
+                "_id": "2-2",
+                "name": "Đen",
+                "price": 210.000
+              },
+              {
+                "_id": "2-3",
+                "name": "Nâu",
+                "price": 199.000
+              },
+              {
+                "_id": "2-4",
+                "name": "Xanh",
+                "price": 187.000
+              }
+            ],
+            "categories": [
+              {
+                "_id": "cat-1",
+                "name": "Mouse",
+                "image": "https://example.com/images/mouse.jpg"
+              }
+            ],
+            "images": [
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184474/E-Shop/Porducts/Bose%20QuietComfort/qbcoq9qtwp3gxcpwow8z.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184585/E-Shop/Porducts/Bose%20QuietComfort/rkjmn9ryxrbgnnsekemm.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184592/E-Shop/Porducts/Bose%20QuietComfort/gsjack1ei1fsju9seiau.jpg",
+              "https://res.cloudinary.com/programming-night/image/upload/v1734184598/E-Shop/Porducts/Bose%20QuietComfort/i3z7agm7voqvvxdtiolw.jpg"
+            ],
+            "createdAt": "2025-06-01T10:15:30.000Z",
+            "updatedAt": "2025-06-10T12:30:45.000Z"
+          },
+          "priceTag": {
+            "_id": "2-4",
+            "name": "Xanh",
+            "price": 187.000
+          },
+          "price": 374.000,
+          "quantity": 2
+        }
+
+      ],
+
+      "deliveryInfo": {
+        "_id": "1",
+        "firstName": "Trong",
+        "lastName": "Nguyen",
+        "addressLineOne": "5 Le Trong Tan",
+        "addressLineTwo": "9 Le Trong Tan",
+        "city": "Ho Chi Minh",
+        "zipCode": "07000",
+        "contactNumber": "0794857510"
+      },
+      "discount": 10
+    }
+  ]
+}

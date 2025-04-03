@@ -1,0 +1,16 @@
+{
+  "name": "json-webserver",
+  "version": "1.0.0",
+  "description": "e-commerce app static web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "sameera perera",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "nodemon": "^3.1.9"
+  }
+}
