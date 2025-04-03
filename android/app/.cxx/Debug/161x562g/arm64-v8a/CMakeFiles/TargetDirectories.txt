@@ -1,0 +1,2 @@
+D:/LtMobile/Flutter-TDD-Clean-Architecture-E-Commerce-App/android/app/.cxx/Debug/161x562g/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/LtMobile/Flutter-TDD-Clean-Architecture-E-Commerce-App/android/app/.cxx/Debug/161x562g/arm64-v8a/CMakeFiles/rebuild_cache.dir
